@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+npm-debug.log
 
 # testing
 /coverage
@@ -14,10 +15,8 @@
 
 # production
 /build
-
-# misc
-.DS_Store
-*.pem
+*.zip
+dist/*
 
 # debug
 npm-debug.log*
@@ -32,3 +31,18 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# IDE's
+.idea
+.project
+*.sublime-*
+*.code-*
+
+# Cache
+.sass-cache
+.cache
+
+# Operating system
+.DS_Store
+*.pem
+Thumbs.db
