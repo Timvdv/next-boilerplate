@@ -3,19 +3,20 @@
 This is based on the Mirabeau Front-end boilerplate but now React based (using NextJS) and stacked with new functionalities.
 
 What I (Tim) added
-    - Husky for pre commit linting, checks CSS / JS
-    - TypeScript (this is very opinionated but I think the best choice)
-    - CSS Modules
-    - Few added linting rules
-        - Added mandatory React/NextJS linting
-        - Added TypeScript linting
-        - Added A11Y linting
+
+- Husky for pre commit linting, checks CSS / JS
+- TypeScript (this is very opinionated but I think the best choice)
+- CSS Modules
+- Few added linting rules
+  - Added mandatory React/NextJS linting
+  - Added TypeScript linting
+  - Added A11Y linting
 
 TODO:
-    [] Fix the no-js stuff in the carousel
-    [] Add Husky
-    [] Add Storybook setup
-    [] Add testing setup
+
+- [] Fix the no-js stuff in the carousel
+- [] Fix storybook absolute URLs in scss (right now it errors, works in nextjs though)
+- [] Add testing setup
 
 ## Getting Started
 
@@ -35,8 +36,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-
 ## Storybook
+
 How to use Storybook
 
 ## Learn More
