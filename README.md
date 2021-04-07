@@ -18,6 +18,12 @@ TODO:
 - [] Fix storybook absolute URLs in scss (right now it errors, works in nextjs though)
 - [] Add testing setup
 
+## Easily start your next project
+
+Quickstart your application using the following command
+
+`npx create-next-app your-project-name --example https://github.com/Timvdv/next-boilerplate`
+
 ## Getting Started
 
 First, run the development server:
