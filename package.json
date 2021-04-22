@@ -5,22 +5,25 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "next dev",
-    "lint": "eslint --ext .ts,.tsx",
-    "lint:fix": "npm run lint -- --fix",
-    "lint:styles": "stylelint ./src/**",
-    "lint:styles:fix": "stylelint --fix ./src/**",
-    "#test": "mocha -r ts-node/register src/**/*.Spec.ts",
+    "lint": "eslint --ext .ts,.tsx --fix",
+    "lint:styles": "stylelint --fix ./src/**",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "next": "10.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2
   },
   "devDependencies": {
     "@babel/core": "^7.13.14",

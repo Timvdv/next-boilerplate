@@ -28,17 +28,17 @@ describe("Carousel", () => {
   });
 
   // describe("_goToNextPage", () => {
-  //   test("should increase the current active index in state by 1", () => {
-  //     // Act
-  //     const startIndex = 0;
-  //     Carousel.prototype._goToNextPage.apply(
-  //       { ...context, _state: { currIndex: startIndex } },
-  //       [mockEvent]
-  //     );
+  // test("should increase the current active index in state by 1", () => {
+  //   // Act
+  //   const startIndex = 0;
+  //   Carousel.prototype._goToNextPage.apply(
+  //     { ...context, _state: { currIndex: startIndex } },
+  //     [mockEvent]
+  //   );
 
-  //     // Assert
-  //     expect(context._state.currIndex).toStrictEqual(startIndex + 1);
-  //   });
+  //   // Assert
+  //   expect(context._state.currIndex).toStrictEqual(startIndex + 1);
+  // });
 
   //   test("should reset the current active index to 0 if the passed index is bigger then length of pages", () => {
   //     // Act

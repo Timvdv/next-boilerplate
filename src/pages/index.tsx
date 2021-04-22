@@ -1,7 +1,7 @@
-import Head from "next/head";
-import styles from "static/scss/pages/Home.module.scss";
+import Head from 'next/head'
+import styles from 'static/scss/pages/Home.module.scss'
 
-import Carousel from "components/carousel/Carousel";
+import Carousel from 'components/carousel/Carousel'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{" "}
+          Get started by editing
           <code className={styles.code}>src/pages/index.js</code>
         </p>
 
@@ -26,5 +26,5 @@ export default function Home() {
 
       <footer className={styles.footer}></footer>
     </div>
-  );
+  )
 }
