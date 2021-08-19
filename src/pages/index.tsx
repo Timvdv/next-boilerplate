@@ -1,15 +1,14 @@
-import Head from 'next/head'
 import styles from 'static/scss/pages/Home.module.scss'
 
+import AppHead from 'components/head/Head'
 import Carousel from 'components/carousel/Carousel'
 
 export default function Home() {
+  const pageName = 'Home'
+
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <AppHead name={pageName} />
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -28,3 +27,4 @@ export default function Home() {
     </div>
   )
 }
+
